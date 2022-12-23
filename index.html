@@ -64,8 +64,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p> 
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>       
       </section>
       <section aria-label="секция" class="oakley">
@@ -124,10 +124,12 @@
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p> 
-          <p class="khan__quote-author">Джордж Лукас</p>
+          <blockquote class="khan__quote">
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </blockquote>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="Книга Салмана Хана" class="khan__book-pic">
@@ -207,21 +209,25 @@
           <div class="logo logo_place_footer" ></div>
           <p class="footer__author">&copy;Denis Shesternev</p>
         </div>
-        <nav class="footer__column footer__column_content_info">
+        <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
+          <nav class="footer__column-links">
             <a class="link footer__column-link" href="#" target="_blank">Главная</a>
             <a class="link footer__column-link" href="#" target="_blank">Концепции</a>
             <a class="link footer__column-link" href="#" target="_blank">Наставники</a>
-        </nav>
-        <nav class="footer__column footer__column_content_social">
+          </nav>
+        </div>
+        <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
+          <nav class="footer__column-links"></nav>
             <a class="link footer__column-link" href="#" target="_blank">
               <img src="./images/youtube-icon.svg" class="footer__social-icon" alt="Ютуб">YouTube</a>
             <a class="link footer__column-link" href="#" target="_blank">
               <img src="./images/vk_color_white.svg" class="footer__social-icon" alt="ВКонтакте">ВКонтакте</a>
             <a class="link footer__column-link" href="#" target="_blank">
               <img src="./images//tiktok-icon.svg" class="footer__social-icon" alt="ТикТок">TikTok</a>
-        </nav>
+          <nav class="footer__column-links">
+        </div>
       </div>
     </footer>
   </div>
